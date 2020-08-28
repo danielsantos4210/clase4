@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Texto from './compontentes/texto.js';
 
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <Texto/>
   </React.StrictMode>,
   document.getElementById('root')
 );
