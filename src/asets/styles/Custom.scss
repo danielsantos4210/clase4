@@ -1,9 +1,9 @@
 $color-fondo: green;
-$texto-primario: white;
+$texto-primario: blue;
 body{
     background-color: $color-fondo;
 }
 
-.container{
+h1{
     color: $texto-primario;
 }

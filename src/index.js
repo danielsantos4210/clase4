@@ -3,12 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Texto from './compontentes/texto.js';
+import Header from './compontentes/Header.js';
+import Presentacion from './compontentes/Presentacion.js';
+import Portafolio from './compontentes/Portafolio.js';
+import Rezume from './compontentes/Rezume.js';
+import Aboutme from './compontentes/Aboutme.js';
 
 ReactDOM.render(
   
   <React.StrictMode>
-    <Texto/>
+    <Header/>
+    <Presentacion/>
+    <Portafolio/>
+    <Rezume/>
+    <Aboutme/>
   </React.StrictMode>,
   document.getElementById('root')
 );
