@@ -8,6 +8,11 @@ import Presentacion from './compontentes/Presentacion.js';
 import Portafolio from './compontentes/Portafolio.js';
 import Rezume from './compontentes/Rezume.js';
 import Aboutme from './compontentes/Aboutme.js';
+import Testimonios from './compontentes/Testimonios'
+import Servicios from './compontentes/Servicios'
+import Blog from './compontentes/Blog'
+import Contacto from './compontentes/Contacto'
+import Redes from './compontentes/Redes'
 
 ReactDOM.render(
   
@@ -17,6 +22,11 @@ ReactDOM.render(
     <Portafolio/>
     <Rezume/>
     <Aboutme/>
+    <Testimonios/>
+    <Servicios/>
+    <Blog/>
+    <Contacto/>
+    <Redes/>
   </React.StrictMode>,
   document.getElementById('root')
 );
